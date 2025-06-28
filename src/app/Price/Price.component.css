@@ -1,0 +1,53 @@
+h1,h2,h3,p{
+    color: white;
+    font-family: Kanit;
+}
+hr{
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.tl{
+    border:1px solid white
+}
+
+.kart{
+    background-color: rgba(27, 27, 31, 0.925);
+}
+
+.ok{
+    color: green;
+}
+.x{
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.gumus>.kart{
+    min-width: fit-content;
+    border: 5px solid rgb(171, 171, 171);
+    -webkit-box-shadow: 0px 0px 51px -3px rgba(171,171,171,1);
+-moz-box-shadow: 0px 0px 51px -3px rgba(171,171,171,1);
+box-shadow: 0px 0px 51px -3px rgba(171,171,171,1);
+}
+
+.altin>.kart{
+    min-width: fit-content;
+    border: 5px solid rgba(199,191,34,1);
+    -webkit-box-shadow: 0px 0px 51px -3px rgba(199,191,34,1);
+-moz-box-shadow: 0px 0px 51px -3px rgba(199,191,34,1);
+box-shadow: 0px 0px 51px -3px rgba(199,191,34,1);
+}
+
+div>.elmas>.kart{
+    min-width: fit-content;
+    border: 5px solid rgb(36, 199, 172);
+    -webkit-box-shadow: 0px 0px 51px -3px rgba(36,199,172,1);
+-moz-box-shadow: 0px 0px 51px -3px rgba(36,199,172,1);
+box-shadow: 0px 0px 51px -3px rgba(36,199,172,1);
+}

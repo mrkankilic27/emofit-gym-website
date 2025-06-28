@@ -1,0 +1,23 @@
+h1,h2,h3,h4,small{
+    color: white;
+    font-family: Kanit;
+}
+p{
+    color :white;
+}
+
+hr{
+    border-top: 2px solid white;
+}
+.inputs{
+    border: 2px solid red;
+}
+.inputs>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.col{
+    min-width: fit-content;
+}

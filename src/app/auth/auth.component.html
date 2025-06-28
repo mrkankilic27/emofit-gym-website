@@ -1,0 +1,58 @@
+<div class="container-fluid position-relative p-3 p-md-5 text-center"
+  style="background-image: url('https://i.hizliresim.com/lttokq8.png'); background-repeat: no-repeat; background-size: cover; height: 100%; background-position: center center;">
+<div class="row my-5">
+<div class="col-md-4 col-sm-4 col-xs-12"></div>
+<div class="col-md-4 col-sm-4 col-xs-12" id="giris" style="display: block;">
+  <form class="my-5 py-5 px-5">
+    <h1>Giriş Yap</h1>
+    <div class="form-group">
+      <label for="Email" class="py-4">e-Posta Hesabınız</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="Sifre" class="py-4">Şifreniz</label>
+      <input type="password" class="form-control" id="sifre">
+    </div>
+    <div class="checkbox py-4">
+      <label>
+        <input type="checkbox" id="remember"> Beni hatırla.
+      </label>
+    </div>
+    <button type="submit" class="btn btn-lg btn-block btn-success px-5">Giriş Yap</button>
+    <p class="pt-5">Hesabın yok mu? Kayıt olmak için <a style="display: contents;" class="btn btn-link" (click)="girisKayit()">tıkla.</a></p>
+  </form>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12" id="kayit" style="display: none;">
+  <form class="my-5 py-4 px-5">
+    <h1>Kayıt Ol</h1>
+    <div class="row">
+    <div class="form-group col">
+      <label for="name" class="py-3">Adınız</label>
+      <input type="text" class="form-control" id="email">
+    </div>
+    <div class="form-group col">
+      <label for="surname" class="py-3">Soyadınız</label>
+      <input type="text" class="form-control" id="email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="birth" class="py-3">Doğum Tarihiniz</label>
+    <input type="date" class="form-control" id="time">
+  </div>
+    <div class="form-group">
+      <label for="Email" class="py-3">e-Posta Hesabınız</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="Sifre" class="py-4">Şifreniz</label>
+      <input type="password" class="form-control" id="sifre">
+    </div>
+    <div class="py-4">
+    <button type="submit" class="btn btn-lg btn-block btn-success px-5">Giriş Yap</button>
+    <p class="pt-5">Zaten üye misin? Giriş yapmak için <a style="display: contents;" class="btn btn-link" (click)="girisKayit()">tıkla.</a></p>
+  </div>
+  </form>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12"></div>
+</div>
+</div>

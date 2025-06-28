@@ -1,0 +1,11 @@
+form{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+h1,label,p{
+    color: white;
+}
