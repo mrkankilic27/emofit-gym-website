@@ -28,10 +28,6 @@ A live version of the project can be hosted and integrated into platforms like G
 - Modular and scalable Angular codebase
 - Lightweight and performant
 
-## Screenshots
-
-> Screenshots can be added here to showcase the homepage, navigation, responsive views, and sections such as About, Services, and Contact.
-
 ## Getting Started
 
 ### Prerequisites
